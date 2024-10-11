@@ -7,7 +7,7 @@ Deck.init({
     xp: DataTypes.INTEGER
 }, {
     sequelize: db,
-    modelName: `User`
+    modelName: `Deck`
 });
 
 module.exports = { Deck };

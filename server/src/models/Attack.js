@@ -8,7 +8,7 @@ Attack.init({
     staminaCost: DataTypes.INTEGER
 }, {
     sequelize: db,
-    modelName: `User`
+    modelName: `Attack`
 });
 
 module.exports = { Attack };
