@@ -13,6 +13,6 @@ const db = new Sequelize({ // Sequelize is a class and so it we create an instan
     storage: path.join(__dirname, `db.sqlite`)
 });
 
-db.authenticate(); // authenticate method is not required but it forces the creation of the database an enables us to check we have succesfully created the instance
+//db.authenticate(); // authenticate method is not required but it forces the creation of the database an enables us to check we have succesfully created the instance
 
 module.exports = { db, Model, DataTypes }

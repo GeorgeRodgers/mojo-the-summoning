@@ -5,7 +5,7 @@ const { db, DataTypes, Model } = require(`../db/config.js`) // imports the datab
 class User extends Model {};
 
 User.init({
-    userame: DataTypes.STRING
+    username: DataTypes.STRING
 }, {
     sequelize: db,
     modelName: `User`
